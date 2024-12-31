@@ -8,7 +8,7 @@ import 'package:get_it/get_it.dart';
 
 final appGetIt = GetIt.instance;
 
-Future<void> appGetItInit() async {
+Future<void>  initGetIt() async {
   final dio = DioFactory.createDio();
   // bloc
   appGetIt.registerLazySingleton<PaymentCubit>(

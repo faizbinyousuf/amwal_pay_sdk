@@ -3,6 +3,6 @@ import 'package:amwalpay/core/di/di.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
-  appGetItInit();
+  initGetIt();
   runApp(const AmwalApp());
 }
